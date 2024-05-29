@@ -1,10 +1,10 @@
-// import React from 'react';
 import './Directory.css';
 
 function SearchBar() {
   return (
-    <div className="SearchBar">
+    <div className="SearchBar"> 
       <input type="text" placeholder="Search employees..." />
+      <input type="submit" />
     </div>
   );
 }
