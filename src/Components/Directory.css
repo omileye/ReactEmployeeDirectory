@@ -1,0 +1,54 @@
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .Homepage {
+    margin: 20px;
+  }
+  
+  .Header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+  }
+  
+  .Header h1 {
+    margin: 0;
+  }
+  
+
+  .SearchBar {
+    margin: 20px 0;
+  }
+  
+  .SearchBar input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+
+  .EmployeeList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .EmployeeListItem {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    width: 60%;
+    text-align: left;
+  }
+  
+  .EmployeeListItem h3 {
+    margin: 0 0 5px 0;
+  }
+  
+  .EmployeeListItem p {
+    margin: 0;
+    color: #555;
+  }
+  
